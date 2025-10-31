@@ -43,3 +43,11 @@ this creates a file called (in this instance) `aqme_1_7_3.sif`
 4- Run your Python script (here with 32 CPUs)
 
 `cd /opt/uio && python AQME_QDESCP.py --nprocs 32`
+
+
+
+If you use this container recipe and/or image please cite: Jean Iaquinta. (2025). j34ni/aqme-container: v1.7.3 (v1.7.3). Zenodo. https://doi.org/10.5281/zenodo.17494589
+
+<img width="191" height="20" alt="image" src="https://github.com/user-attachments/assets/e6125617-fe59-4ee0-b214-7c4d8adcd156" />
+
+
