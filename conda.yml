@@ -1,0 +1,26 @@
+name: aqme
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  # Core
+  - python=3.10
+  - openbabel
+  - rdkit
+  - xtb
+  - crest
+  - cclib
+  - ase
+  - numpy
+  - pandas
+  - scipy
+  - scikit-learn
+  - matplotlib
+  - py3dmol
+  - pyyaml
+  - tqdm
+  - procps-ng 
+  - psutil
+  - pip
+  - pip:
+      - aqme==1.7.3
