@@ -10,11 +10,11 @@ The corresponding container images can be pulled from `https://quay.io/repositor
 
 1- Pull the container image
 
-`docker pull quay.io/jeani/aqme:update_script`
+`docker pull quay.io/jeani/aqme:1.7.3`
 
 2- Run the container
 
-`docker run -it --rm -v $PWD:/opt/uio aqme`
+`docker run -it --rm -v $PWD:/opt/uio aqme:1.7.3`
 
 3- Activate the `aqme` environment
 
@@ -28,9 +28,9 @@ The corresponding container images can be pulled from `https://quay.io/repositor
 
 1- Pull the container image
 
-`apptainer pull docker://quay.io/jeani/aqme:update_script` 
+`apptainer pull docker://quay.io/jeani/aqme:1.7.3` 
 
-this creates a file called (in this instance) `aqme_update_script.sif`
+this creates a file called (in this instance) `aqme_1_7_3.sif`
 
 2- Start a shell in the container
 
