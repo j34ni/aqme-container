@@ -34,7 +34,7 @@ this creates a file called (in this instance) `aqme_1_7_3.sif`
 
 2- Start a shell in the container
 
-`apptainer shell --bind $PWD:/opt/uio aqme_update_script.sif`
+`apptainer shell --bind $PWD:/opt/uio aqme_1_7_3.sif`
 
 3- Activate the `aqme` environment
 
